@@ -3,13 +3,30 @@
 <head>
                 <title>Justin Bayer</title>
         <meta charset="utf-8" />
+
+        <!-- Homepage CSS -->
+        <link rel="stylesheet" href="/theme/css/screen.css" type="text/css" media="screen, projection" />
+
+        <!-- MathJax -->
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+            tex2jax: {
+              inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+              processEscapes: true
+            }
+          });
+        </script>
+        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
                 <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Justin Bayer Full Atom Feed" />
                                                 <link href="/feeds/.atom.xml" type="application/atom+xml" rel="alternate" title="Justin Bayer Categories Atom Feed" />
                                         </head>
 
 <body id="index" class="home">
+        <div class="site">
         <header id="banner" class="body">
-                <h1><a href=".">Justin Bayer <strong></strong></a></h1>
+                <h1 class="title"><a href=".">Justin Bayer <strong></strong></a></h1>
         </header><!-- /#banner -->
         <nav id="menu"><ul>
                                           </ul></nav><!-- /#menu -->
@@ -22,5 +39,6 @@
                 which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
         </footer><!-- /#contentinfo -->
+        </div>
 </body>
 </html>
